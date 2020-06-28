@@ -522,7 +522,7 @@ footer{
     display: block;
     content: "";
     height: 120px;
-    outline: 1px solid aqua;
+    outline: 1px solid #ffffff;
     
     background-size: 70px;
     background-repeat: no-repeat;
@@ -543,11 +543,11 @@ footer{
 .img-astronaut::before{
     background-image: url(../img/astronaut1.svg);
 }
-.quality-link:hover,
+/* .quality-link:hover,
 .quality-link:focus{
     background-color:#F5F4FA;
     border-color:var(--primary-text-color);
-}
+} */
 
 /* .quality-img{
     margin-top: 25px;
@@ -642,12 +642,7 @@ footer{
     padding-bottom: 95px;  
 }
 
-.customers-img{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto; 
-}
+ 
 .link-customers:hover,
 .link-customers:focus{
     border-color:var(--accent-text-color);
@@ -883,4 +878,13 @@ footer{
 }
 .team-icon:hover{
     fill: var(--primary-white-color)
+}
+/* regular customers */
+.customers-icon{
+    widows: 80px;
+    height: 60px;
+    fill:#AFB1B8;
+}
+.customers-icon:hover{
+    fill: var(--accent-text-color)  
 }
