@@ -110,7 +110,8 @@ main {
     position: absolute;
     width: 690px;
     height: 120px;
-    margin-left: 450px;
+    margin-left:auto;
+    margin-right: auto;
     margin-top: 200px;
     margin-bottom: 0px;
     padding-left: 20px;
@@ -128,15 +129,15 @@ main {
     line-height: 2;
 
     display: flex;
-    position: absolute;
     justify-content: center;
     width: 140px;
     height: 30px;
     left: 0px;
     top: 0px;
-    margin-left: 730px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top:440px ;
-    margin-bottom: 0px;
+    margin-bottom:0;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 32px;
@@ -508,7 +509,7 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.baner-button
+
 
 .quality-link{
     
@@ -793,7 +794,7 @@ footer{
 
 /* установка иконок и background-img */
 
-.baner{ 
+.baner{
     height:600px; 
     max-width: 1600px;
     margin-right: auto;
@@ -802,6 +803,7 @@ footer{
     url(../img/bg-img.jpg);
     /* background-image: linear-gradient(rgba(54, 54, 51, 0.9),
      rgba(33, 150, 243, 0.7)), */
+    display: flex;
     align-content: center;
     justify-content: center;
 }
