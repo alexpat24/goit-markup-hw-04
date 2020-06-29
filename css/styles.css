@@ -28,6 +28,8 @@
 body{ 
     background-color: #ffffff;
     margin: 0px;
+    /* margin-right: auto;
+    margin-left: auto; */
     
 }
 header { 
@@ -222,6 +224,7 @@ ul{
     margin-top: 0;
 
 }
+
 
 
 /* .product-title .product-text:hover,
@@ -632,7 +635,7 @@ footer{
     
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
 .link-customers:not(:last-child){
     margin-right: 30px;
@@ -883,10 +886,16 @@ footer{
 }
 /* regular customers */
 .customers-icon{
-    widows: 80px;
-    height: 60px;
+    display: flex;
+    width: 120px;
+    height: 60px;  
     fill:#AFB1B8;
+    justify-content: center;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 .customers-icon:hover{
-    fill: var(--accent-text-color)  
-}
+    fill: var(--accent-text-color); 
+} 
