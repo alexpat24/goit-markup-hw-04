@@ -171,6 +171,7 @@ main {
 .baner-button:hover,
 .baner-button:focus{
     background-color:var(--accent-text-color);
+    cursor:pointer;
 }
 /* quality part */
 /* .quality{
@@ -384,6 +385,7 @@ footer{
 .footer-button:hover,
 .footer-button:focus{
      background-color: var(--accent-text-color);
+     cursor:pointer;
 }
 
 .footer-button::after{
@@ -414,6 +416,7 @@ footer{
 .button-menu:hover,
 .button-menu:focus{
     background-color: var(--accent-text-color);
+    cursor:pointer;
 
 }
 .portfolio-title{
@@ -716,9 +719,9 @@ footer{
 .buton-conteiner{ 
     margin-left: auto;
     margin-right: auto;
-    width: 610px;
-    padding-left: 280px;
-    padding-right: 280px; 
+    width: 765px;
+    padding-left: 102.5px;
+    padding-right: 102.5px; 
     
 } 
 .list-button-menu{
