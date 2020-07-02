@@ -233,19 +233,18 @@ ul{
     
 } */
 .product-text{
-    background-color: #2F303A;
+    background-color: rgba(47, 48, 58, 0.9);
     color: var(--primary-white-color);
     width:370px;
-    height: 70px;
+    height: 40px;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 25px;
+    padding-top: 30px;
     padding-bottom: auto;
-    
 }
 /* our team */
 .team{
@@ -590,8 +589,16 @@ footer{
     padding-left: 0;
     
     justify-content: space-between;
+    position: relative;
 }
-
+/* .product-text{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: space-between;
+    transform: translate(50%  50%);
+}  */
 /* team-part */
 
 .list-social-network-team{
@@ -902,3 +909,17 @@ footer{
 .customers-icon:hover{
     fill: var(--accent-text-color); 
 } 
+/* Дз №5  */
+/* product */
+.product-part-link{
+    display: flex;
+    position: relative;
+}
+
+.product-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.product-part-list
